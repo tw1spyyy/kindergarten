@@ -1,0 +1,50 @@
+.wrapper {
+	background: #f4e5e5;
+	padding-top: 30px;
+	padding-bottom: 60px;
+}
+.container {
+	max-width: 1740px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+.title {
+	font-size: 64px;
+	line-height: 80px;
+	text-align: center;
+	font-weight: 700;
+	margin-bottom: 40px;
+}
+.contentInner {
+	display: flex;
+}
+.values {
+	display: flex;
+}
+.mission {
+	& > img {
+		border-radius: 40px;
+	}
+	display: flex;
+	align-items: center;
+	gap: 160px;
+	width: 100%;
+}
+.missionContent {
+	& > h4 {
+		font-size: 700px;
+		font-size: 34px;
+		line-height: 40px;
+		margin: 0;
+		text-align: left;
+		margin-bottom: 16px;
+	}
+	width: 100%;
+}
+.missionText {
+		font-size: 24px;
+		line-height: 30px;
+		margin-bottom: 16px;
+		text-align: justify;
+
+}

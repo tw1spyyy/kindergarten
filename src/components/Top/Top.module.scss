@@ -1,0 +1,62 @@
+.wrapper {
+	height: 100vh;
+	background-image: url('../../images/top-bg3.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	&::after{
+		position: absolute;
+		content: "";
+		left: 0;
+		right: 0;
+		bottom: 0;
+		top: 0;
+		background: #2b3e52;
+		opacity: 0.6;
+	}
+	color: #fff;
+}
+.container {
+	max-width: 1740px;
+	margin: 0 auto;
+	padding: 130px 10px 0px;
+	display: flex;
+	justify-content: space-between;
+	z-index: 2;
+	position: relative;
+	height: calc(100vh - 110px);
+}
+.topContentRight {
+	max-width: 800px;
+	width: 100%;
+	margin-top: 140px;
+
+}
+.sliderItem {
+	& > img {
+		width: 700px;
+		height: 480px;
+		border-radius: 40px;
+		margin-left: 50px;
+	}
+}
+.sliderWrapper {
+	// display: flex;
+}
+.topContentLeft {
+	max-width: 720px;
+	margin-top: 200px;
+}
+.title {
+	font-size: 58px;
+	font-family: 64px;
+	margin-bottom: 40px;
+	& > span {
+		font-weight: 700;
+	}
+}
+.contentText {
+	font-size: 24px;
+	line-height: 30px;
+	margin-bottom: 20px;
+}

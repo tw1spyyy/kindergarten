@@ -1,0 +1,90 @@
+.wrapper {
+	padding: 50px 0 100px;
+	background: #b8e6b6;
+}
+.container {
+	max-width: 1540px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+.subtitle {
+		font-size: 32px;
+		line-height: 36px;
+		font-weight: 500;
+		margin: 0;
+		margin-bottom: 20px;
+}
+.container {
+	opacity: 1;
+}
+.containerContent {
+	max-width: 800px;
+}
+.flex {
+	display: flex;
+	gap: 100px;
+	justify-content: space-between;
+}
+.text {
+	margin-bottom: 18px;
+	font-size: 22px;
+	line-height: 26px;
+}
+.img {
+	max-width: 700px;
+	border-radius: 40px;
+}
+.sliderItem {
+	width: 530px;
+	margin: 0 15px;
+	& > img {
+		width: 500px;
+	height: 350px;
+	border-radius: 16px;
+	}
+}
+
+.sliderArrow {
+	position: absolute;
+	cursor: pointer;
+	cursor: pointer;
+	bottom: -18px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: transparent;
+	border: 1px solid #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	left: 46%;
+	z-index: 2;
+	&:hover {
+		opacity: 0.6;
+	}
+}
+.sliderArrowRight {
+	&:hover {
+		opacity: 0.6;
+	}
+		z-index: 2;
+	position: absolute;
+	bottom: -18px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: transparent;
+	border: 1px solid #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transform: rotate(180deg);
+	right: 46%;
+	cursor: pointer;
+}
+.flexRevert {
+	display: flex;
+	flex-direction: row-reverse;
+	gap: 80px;
+	margin-top: 70px;
+}
