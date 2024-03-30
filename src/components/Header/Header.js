@@ -25,15 +25,16 @@ export const Header = () => {
 			link: '/food'
 		},
 		{
-			id: 3,
-			name: 'Розклад та режим дня',
-			link: '/schedule'
-		},
-		{
 			id: 4,
 			name: 'Контакти',
 			link: '/contacts'
 		},
+		{
+			id: 3,
+			name: 'Питання та відповіді',
+			link: '/schedule'
+		},
+
 	]
 
 	return (
